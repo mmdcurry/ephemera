@@ -1,0 +1,22 @@
+body{
+	background-image:url(../Image/loginbackground1.jpg);
+}
+#myhistory,#cont{
+	font-size:20px;
+		/*background-color:rgb(189,252,200);*/
+		margin:5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		width:200px;
+		border-color: blue;
+		padding-left: 2px;
+}
+#tab{
+	margin:10px auto 0;
+	width:100%;
+}
+#detail,#money,#ordertime,#status{
+	text-align:center;
+}

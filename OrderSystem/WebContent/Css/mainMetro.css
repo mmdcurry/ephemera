@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+body{
+		background-image: url(../Image/loginbackground2.jpg);
+		font-family: "黑体",cursive;
+	}
+	#firstline{
+/* 		background-color: red; */
+		text-align: right;
+/* 		background-image: url(../Image/smallfresh.png); */
+	}
+	#history,#change{
+		margin-right: 20px;
+		/*color:white;*/
+	}
+
+	#dad{
+		margin:10px auto 0;
+/* 		background-image: url(../Image/loginbackground1.jpg); */
+	}
+	#spinner1,#spinner2,#spinner3,#spinner4,#spinner5,#spinner6,#spinner7,#spinner8,#spinner9{
+		width:30px;
+		height:30px;
+		border:0;
+		font-size:18px;
+		text-align:center;
+	}
+	#sub1,#sub2,#sub3,#sub4,#sub5,#sub6,#sub7,#sub8,#sub9,#plus1,#plus2,#plus3,#plus4,#plus5,#plus6,#plus7,#plus8,#plus9{
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		border:0;
+		background-color: #0099FF;
+		width:30px;
+		height: 30px;
+	}
+	#calc{
+		font-size: 15px;
+	}
+	#over,#smt{
+		font-size:20px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		border-color:blue;
+		padding-left:3px;
+		width: 120px;
+		margin-left: 40px;
+	}
+	#det{
+		font-size:25px;
+	}
+	#two{
+		margin:1px auto 0;
+	}
+	#td3{
+		BORDER-RIGHT:  blue 1px solid;
+		BORDER-TOP:    blue 1px solid; 
+		BORDER-LEFT:   blue 1px solid;
+		BORDER-BOTTOM: blue 1px solid;
+	}

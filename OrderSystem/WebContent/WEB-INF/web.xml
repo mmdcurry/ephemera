@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>OrderSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginProcessor</servlet-name>
+    <servlet-class>myOrder.LoginProcessor</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterProcessor</servlet-name>
+    <servlet-class>myOrder.RegisterProcessor</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MainMetroProcessor</servlet-name>
+    <servlet-class>myOrder.MainMetroProcessor</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HistoryProcessor</servlet-name>
+    <servlet-class>myOrder.HistoryProcessor</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaleProcessor</servlet-name>
+    <servlet-class>myOrder.SaleProcessor</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>LoginProcessor</servlet-name>
+    <url-pattern>/src/LoginProcessor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterProcessor</servlet-name>
+    <url-pattern>/src/RegisterProcessor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainMetroProcessor</servlet-name>
+    <url-pattern>/src/MainMetroProcessor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HistoryProcessor</servlet-name>
+    <url-pattern>/src/HistoryProcessor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaleProcessor</servlet-name>
+    <url-pattern>/src/SaleProcessor</url-pattern>
+  </servlet-mapping>
+</web-app>
